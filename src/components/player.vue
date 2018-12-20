@@ -1,5 +1,5 @@
 <template>
-  <div ref="palyerparent" class="player-parent">
+  <div class="player-parent">
     <div class="player">
       <div class="grad">
         <div
@@ -19,38 +19,22 @@
           <span class="freq">{{freq}}</span>
         </div>
         <audio ref="audio" autoplay :src="currentUrl"></audio>
-
-        <div class="social">
-          <img src="/img/icons/twitter.png" v-on:click="social=!social">
-          <img src="/img/icons/facebook.png">
-        </div>
       </div>
-    </div>
-    <div v-if="social" class="embed" v-bind:style="{ width:width}">
-      <Timeline :id="twit" :sourceType="'profile'" :options="{ theme: 'dark', height:'725' }">
-        <div class="spinner"></div>
-      </Timeline>
     </div>
   </div>
 </template>
 
 <script>
 import { bus } from "../bus.js";
-import { Timeline } from "vue-tweet-embed";
+
 export default {
-  components: {
-    Timeline: Timeline
-  },
   data() {
     return {
       currentUrl: "https://icecast2.getstreamhosting.com:8050/stream.mp3",
       image: "/img/capital.jpg",
       play: true,
       name: "Capital fm",
-      freq: "98.5",
-      twit: "CapitalFMKenya",
-      social: false,
-      width: 0
+      freq: "98.5"
     };
   },
   methods: {},
@@ -60,57 +44,33 @@ export default {
       this.image = data.image;
       this.name = data.name;
       this.freq = data.freq;
-      this.twit = data.twit;
     });
   },
-  mounted() {},
   updated() {
     if (this.play == false) {
       this.$refs.audio.pause();
     } else {
       this.$refs.audio.play();
     }
-
-    if (this.social == true) {
-      this.width = "500px";
-    } else {
-      this.width = "0px";
-    }
-    this.reload;
   }
 };
 </script>
 <style>
 .player-parent {
-  max-height: 100vh;
-  width: fit-content;
+  height: 100%;
+  width: 320px;
   grid-column-end: -1;
   z-index: 100;
   grid-row-start: 1;
   background-color: black;
-  display: grid;
-  grid-template-columns: auto;
-}
-.spinner {
-  background: url("/img/load.gif") no-repeat center center;
-  height: 700px;
 }
 .player {
-  width: 320px;
-  grid-column: 1/2;
   height: 100%;
   position: relative;
   background: url("/img/audio.gif") no-repeat center center;
 }
-.social {
-  height: 50px;
-}
-.embed {
-  grid-column: 2/-1;
-  max-height: 100vh;
-}
 .grad {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background: linear-gradient(
     to bottom,
@@ -143,7 +103,7 @@ audio {
 }
 .names {
   position: absolute;
-  bottom: 25%;
+  bottom: 20%;
   left: 50%;
   transform: translate(-50%, 50%);
 }
@@ -184,17 +144,6 @@ audio {
   background-color: snow;
 
   top: 50%;
-  margin: 10px;
-}
-.social {
-  display: inline;
-  position: absolute;
-  bottom: 1%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.social img {
-  height: 40px;
   margin: 10px;
 }
 </style>

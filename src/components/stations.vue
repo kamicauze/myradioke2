@@ -26,7 +26,7 @@ export default {
       stations: [],
       back: "img/wonan/wonan0.jpg",
       ImagesF: [
-        "/img/wonan/wonan0.jpg",
+        "img/wonan/wonan0.jpg",
         "/img/wonan/wonan.jpg",
         "/img/wonan/wonan2.jpg",
         "/img/wonan/wonan3.jpg",
