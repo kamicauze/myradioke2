@@ -27,7 +27,8 @@ export default {
         url: this.station.url,
         image: this.station.image,
         name: this.station.name,
-        freq: this.station.frequency
+        freq: this.station.frequency,
+        twit: this.station.twitter
       });
     }
   }
