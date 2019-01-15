@@ -4,9 +4,9 @@ import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
 import axios from "axios";
+import VueCircleSlider from 'vue-circle-slider'
 
-const bus = new Vue();
-
+Vue.use(VueCircleSlider)
 Vue.use(axios);
 Vue.config.productionTip = false;
 

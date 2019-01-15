@@ -71,7 +71,6 @@ export default {
     } else {
       this.$refs.audio.play();
     }
-    console.log(this.social);
     if (this.social == true) {
       this.width = "500px";
     } else {
@@ -131,7 +130,14 @@ audio {
   transform: translate(-50%);
   width: 100%;
 }
-
+.circle {
+  height: 325px;
+  width: 325px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 .play-pause {
   height: 120px;
   width: 120px;
