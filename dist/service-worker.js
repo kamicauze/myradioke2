@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.01497a94b7341c5342c4a328052e2826.js"
+  "/precache-manifest.cf142913e4329b6f4f759e92d81b6d91.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "i-radio"});
