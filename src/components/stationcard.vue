@@ -29,6 +29,7 @@ export default {
         name: this.station.name,
         freq: this.station.frequency,
         twit: this.station.twitter,
+        website: this.station.website,
         social: false
       });
     }

@@ -1,11 +1,7 @@
 <template>
   <div class="stations">
-    <div ref="top" class="top" :style="{ 'background-image': 'url('+back+')'}">
-      <div class="gradi">
-        <span class="head">Hottest Radio stations?</span>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ipsum ipsam suscipit...</p>
-        <button>Do something</button>
-      </div>
+    <div ref="top" class="top">
+      <iframe :src="currentWeb"></iframe>
     </div>
     <div class="channels">
       <stationcard v-for="station in stations" :station="station" :key="station.url"></stationcard>
@@ -16,6 +12,7 @@
 import data from "../assets/data/radios.json";
 import stationcard from "./stationcard.vue";
 import { setInterval, clearTimeout } from "timers";
+import { bus } from "../bus.js";
 
 export default {
   components: {
@@ -33,6 +30,7 @@ export default {
         "/img/wonan/wonan5.jpg"
       ],
       currentnum: 0,
+      currentWeb: "https://www.capitalfm.co.ke",
       timer: null
     };
   },
@@ -56,6 +54,9 @@ export default {
   },
   created() {
     this.stations = data.radios;
+    bus.$on("stationChanged", data => {
+      this.currentWeb = data.website;
+    });
   }
 };
 </script>
@@ -110,13 +111,13 @@ export default {
   font-family: "Roboto", sans-serif;
 }
 .top {
-  height: 45%;
-  background-image: url("/img/wonan/wonan0.jpg");
+  height: 60%;
+  background-image: url("/img/music.gif");
   background-position: center;
   background-size: cover;
 }
 .channels {
-  height: 55%;
+  height: 40%;
   background-color: #1b1b20;
   padding: 10px;
   box-sizing: border-box;
@@ -124,8 +125,8 @@ export default {
   overflow-x: auto;
 }
 .cards {
-  height: 300px;
-  min-width: 250px;
+  height: 230px;
+  min-width: 190px;
 
   background-position: center;
   background-size: cover;

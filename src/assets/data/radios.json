@@ -5,49 +5,56 @@
       "url": "http://net1.citrus3.com:8552/stream/1/",
       "image": "/img/nrg.webp",
       "frequency": "91.3 fm",
-      "twitter": "NRGRadioKE"
+      "twitter": "NRGRadioKE",
+      "website": "https://nrg.radio/"
     },
     {
       "name": "Home boys radio",
       "url": "http://91.121.165.88:8116/stream/1/",
       "image": "/img/hbr.jpg",
       "frequency": "103.5 fm",
-      "twitter": "HomeboyzRadio"
+      "twitter": "HomeboyzRadio",
+      "website": "http://hbr.co.ke/"
     },
     {
       "name": "Kiss 100",
       "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=4&rate=1",
       "image": "/img/kiss.jpg",
       "frequency": "100.3 fm",
-      "twitter": "Kiss100kenya"
+      "twitter": "Kiss100kenya",
+      "website": "https://kiss100.co.ke/"
     },
     {
       "name": "Classic 105",
       "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=5&amp;rate=1",
       "image": "/img/classic.jpg",
       "frequency": "105.2 fm",
-      "twitter": "Classic105Kenya"
+      "twitter": "Classic105Kenya",
+      "website": "https://classic105.com/"
     },
     {
       "name": "Capital fm",
       "url": "https://icecast2.getstreamhosting.com:8050/stream.mp3",
       "image": "/img/capital.jpg",
       "frequency": "98.4 fm",
-      "twitter": "CapitalFMKenya"
+      "twitter": "CapitalFMKenya",
+      "website": "https://www.capitalfm.co.ke/"
     },
     {
       "name": "Ghetto radio",
       "url": "http://45.79.138.31:8002/stream/1/",
       "image": "/img/ghetto.jpg",
       "frequency": "89.5 fm",
-      "twitter": "GhettoRadio895"
+      "twitter": "GhettoRadio895",
+      "website": "https://www.ghettoradio.co.ke/"
     },
     {
       "name": "X-fm",
       "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=2&rate=1&kbps=128",
       "image": "/img/xfm.jpg",
       "frequency": "105.5 fm",
-      "twitter": "1055XFM"
+      "twitter": "1055XFM",
+      "website": ""
     },
     {
       "name": "Kameme",
