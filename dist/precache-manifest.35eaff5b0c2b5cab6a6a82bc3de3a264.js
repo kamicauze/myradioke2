@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/js/about.ec1e39f7.js"
   },
   {
-    "revision": "04e8702c49388b467776",
-    "url": "/css/app.154e148b.css"
+    "revision": "3ea51601703bf9ecfc74",
+    "url": "/css/app.a9d19318.css"
   },
   {
-    "revision": "04e8702c49388b467776",
-    "url": "/js/app.47571199.js"
+    "revision": "3ea51601703bf9ecfc74",
+    "url": "/js/app.3afe51b5.js"
   },
   {
     "revision": "dccc95ad035b8a485e63",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/img/skull-headphones-wallpaper-58695-60469-hd-wallpapers.a3952587.jpg"
   },
   {
-    "revision": "7daa4efb95e21eb882431196df17ecbf",
+    "revision": "3dac491a7a11764a80fc56bffaa9eee8",
     "url": "/index.html"
   },
   {
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
+  },
+  {
+    "revision": "7796855db31ed8262d8366280954170d",
+    "url": "/img/capital.jpg"
   },
   {
     "revision": "3b775b8bc8629f948863fb39250e858c",
@@ -88,10 +92,6 @@ self.__precacheManifest = [
     "url": "/img/milele.jpg"
   },
   {
-    "revision": "7796855db31ed8262d8366280954170d",
-    "url": "/img/capital.jpg"
-  },
-  {
     "revision": "3e604ff7e6783f5a99783957870e42e3",
     "url": "/img/load.gif"
   },
@@ -100,12 +100,12 @@ self.__precacheManifest = [
     "url": "/img/radiojambo.jpg"
   },
   {
-    "revision": "e8bd8cd6d3318e67378f1a648289ecd6",
-    "url": "/img/nrg.webp"
-  },
-  {
     "revision": "353e1b761f63e91174f79ca53d760459",
     "url": "/img/wonan/wonan2.jpg"
+  },
+  {
+    "revision": "e8bd8cd6d3318e67378f1a648289ecd6",
+    "url": "/img/nrg.webp"
   },
   {
     "revision": "d4666a8bc59a94c6f8429caa65149ac0",
@@ -124,12 +124,12 @@ self.__precacheManifest = [
     "url": "/img/wonan/wonan0.jpg"
   },
   {
-    "revision": "7fbe686a381748f2c4a6b039d0abd9c0",
-    "url": "/img/music.gif"
-  },
-  {
     "revision": "12bb1a824b9be6828d060c3dd29cff77",
     "url": "/img/wonan/wonan.jpg"
+  },
+  {
+    "revision": "7fbe686a381748f2c4a6b039d0abd9c0",
+    "url": "/img/music.gif"
   },
   {
     "revision": "68c98e9b5b03e9537a18eb21a551d00b",

@@ -175,4 +175,5 @@ export default {
   background-color: #166c5b;
   outline: 1px solid slategrey;
 }
+
 </style>

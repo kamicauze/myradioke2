@@ -38,7 +38,7 @@ body {
 .player {
   width: 320px;
   grid-column: 1/2;
-  height: 100%;
+  height: inherit;
   position: relative;
   background: url("/img/audio.gif") no-repeat center center;
 }
@@ -140,4 +140,59 @@ audio {
 iframe {
   width: 100%;
   height: 100%;
+}
+@media (max-width: 768px) {
+  .sidenav {
+    display: none;
+  }
+  .home {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    height: 50vh;
+  }
+  .player-parent {
+    height: 50vh !important;
+    width: 100vw;
+    grid-row: 1/2;
+  }
+  .background {
+    display: none;
+  }
+  .player {
+    width: 100%;
+  }
+  .grad {
+    height: inherit;
+  }
+  .stations {
+    grid-row-start: 2 !important;
+    width: 100vw !important;
+    padding-left: 0 !important;
+  }
+  .channels {
+    height: inherit !important;
+    overflow-y: hidden !important;
+  }
+  .cards {
+    height: 200px !important;
+    width: 140px !important;
+  }
+  .top {
+    display: none;
+  }
+  .embed {
+    width: 100% !important;
+    grid-column: 1/-1;
+    height: 50vh !important;
+    background-color: black;
+  }
+  .names {
+    bottom: 18% !important;
+  }
+  .social {
+    bottom: -9%;
+  }
+  .spinner {
+    height: 50vh !important;
+  }
 }
