@@ -43,12 +43,12 @@ export default {
   },
   data() {
     return {
-      currentUrl: "http://net1.citrus3.com:8552/stream/1/",
-      image: "/img/capital.jpg",
+      currentUrl:"http://net1.citrus3.com:8552/stream/1/",
+      image: "/img/nrg.webp",
       play: true,
       name: "NRG Radio",
       freq: "97.1",
-      twit: "CapitalFMKenya",
+      twit: "NRGRadioKE",
       social: false,
       width: 0
     };

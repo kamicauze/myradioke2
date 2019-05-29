@@ -30,7 +30,7 @@ export default {
         "/img/wonan/wonan5.jpg"
       ],
       currentnum: 0,
-      currentWeb: "https://www.capitalfm.co.ke",
+      currentWeb: "https://nrg.radio/",
       timer: null
     };
   },
