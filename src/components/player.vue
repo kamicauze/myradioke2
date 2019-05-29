@@ -43,11 +43,11 @@ export default {
   },
   data() {
     return {
-      currentUrl: "https://icecast2.getstreamhosting.com:8050/stream.mp3",
+      currentUrl: "http://net1.citrus3.com:8552/stream/1/",
       image: "/img/capital.jpg",
       play: true,
-      name: "Capital fm",
-      freq: "98.5",
+      name: "NRG Radio",
+      freq: "97.1",
       twit: "CapitalFMKenya",
       social: false,
       width: 0
