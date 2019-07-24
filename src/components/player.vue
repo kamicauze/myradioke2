@@ -14,7 +14,7 @@
           <div v-else class="play"></div>
         </div>
         <div class="names">
-          <span class="name">{name}</span>
+          <span class="name">{{name}}</span>
           <br>
           <span class="freq">{{freq}}</span>
         </div>
