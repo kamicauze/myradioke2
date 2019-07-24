@@ -2,20 +2,13 @@
   "radios": [
     {
       "name": "Nrg radio",
-      "url": "http://net1.citrus3.com:8552/stream/1/",
+      "url": "http://net1.citrus3.com:8552/;stream.mp3",
       "image": "/img/nrg.webp",
       "frequency": "97.1 fm",
       "twitter": "NRGRadioKE",
       "website": "https://nrg.radio/"
     },
-    {
-      "name": "Home boys radio",
-      "url": "http://91.121.165.88:8116/stream/1/",
-      "image": "/img/hbr.jpg",
-      "frequency": "103.5 fm",
-      "twitter": "HomeboyzRadio",
-      "website": "http://hbr.co.ke/"
-    },
+
     {
       "name": "Kiss 100",
       "url": "http://41.191.227.118:8098/broadwave.mp3?src=2&rate=128",
@@ -24,14 +17,7 @@
       "twitter": "Kiss100kenya",
       "website": "https://kiss100.co.ke/"
     },
-    {
-      "name": "Classic 105",
-      "url": "http://41.191.227.118:8098/broadwave.mp3?src=1&rate=128",
-      "image": "/img/classic.jpg",
-      "frequency": "105.2 fm",
-      "twitter": "Classic105Kenya",
-      "website": "https://classic105.com/"
-    },
+   
     {
       "name": "Capital fm",
       "url": "https://icecast2.getstreamhosting.com:8050/stream.mp3",
@@ -42,7 +28,7 @@
     },
     {
       "name": "Ghetto radio",
-      "url": "http://45.79.138.31:8002/stream/1/",
+      "url": "http://45.79.138.31:8090/;?_=0.5050739066987733",
       "image": "/img/ghetto.jpg",
       "frequency": "89.5 fm",
       "twitter": "GhettoRadio895",
@@ -63,6 +49,22 @@
       "frequency": "101.5 fm",
       "twitter": "kameme101",
       "website": ""
+    },
+    {
+      "name": "Classic 105",
+      "url": "http://41.191.227.118:8098/broadwave.mp3?src=1&rate=128",
+      "image": "/img/classic.jpg",
+      "frequency": "105.2 fm",
+      "twitter": "Classic105Kenya",
+      "website": "https://classic105.com/"
+    },
+    {
+      "name": "Home boys radio",
+      "url": "http://91.121.165.88:8116/stream/1/",
+      "image": "/img/hbr.jpg",
+      "frequency": "103.5 fm",
+      "twitter": "HomeboyzRadio",
+      "website": "http://hbr.co.ke/"
     },
     {
       "name": "East fm",
