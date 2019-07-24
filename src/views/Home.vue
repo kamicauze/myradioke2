@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="background"></div>
-    <sidenav></sidenav>
+    <!-- <sidenav></sidenav> -->
     <stations></stations>
     <player></player>
   </div>
@@ -9,7 +9,7 @@
 
 <script>
 // @ is an alias to /src
-import sidenav from "@/components/sidenav.vue";
+// import sidenav from "@/components/sidenav.vue";
 import stations from "@/components/stations.vue";
 import player from "@/components/player.vue";
 
@@ -17,7 +17,7 @@ export default {
   name: "Home",
   components: {
     player: player,
-    sidenav: sidenav,
+    // sidenav: sidenav,
     stations: stations
   }
 };

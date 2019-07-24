@@ -22,7 +22,7 @@
 
         <div class="social">
           <img src="/img/icons/twitter.png" v-on:click="social=!social">
-          <img src="/img/icons/facebook.png">
+         
         </div>
       </div>
     </div>
@@ -41,16 +41,19 @@ export default {
   components: {
     Timeline: Timeline
   },
+  computed(){
+    
+  },
   data() {
     return {
-      currentUrl: "https://icecast2.getstreamhosting.com:8050/stream.mp3",
-      image: "/img/capital.jpg",
+      currentUrl:"http://net1.citrus3.com:8552/;stream.mp3",
+      image: "/img/nrg.webp",
       play: true,
-      name: "Capital fm",
-      freq: "98.5",
-      twit: "CapitalFMKenya",
+      name: "NRG Radio",
+      freq: "97.1 fm",
+      twit: "NRGRadioKE",
       social: false,
-      width: 0
+      width: "500px"
     };
   },
   methods: {},
@@ -64,7 +67,9 @@ export default {
       this.social = data.social;
     });
   },
-  mounted() {},
+  mounted() {
+    this.currentUrl = "http://net1.citrus3.com:8552/;stream.mp3";
+  },
   updated() {
     if (this.play == false) {
       this.$refs.audio.pause();

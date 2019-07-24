@@ -2,36 +2,22 @@
   "radios": [
     {
       "name": "Nrg radio",
-      "url": "http://net1.citrus3.com:8552/stream/1/",
+      "url": "http://net1.citrus3.com:8552/;stream.mp3",
       "image": "/img/nrg.webp",
-      "frequency": "91.3 fm",
+      "frequency": "97.1 fm",
       "twitter": "NRGRadioKE",
       "website": "https://nrg.radio/"
     },
-    {
-      "name": "Home boys radio",
-      "url": "http://91.121.165.88:8116/stream/1/",
-      "image": "/img/hbr.jpg",
-      "frequency": "103.5 fm",
-      "twitter": "HomeboyzRadio",
-      "website": "http://hbr.co.ke/"
-    },
+
     {
       "name": "Kiss 100",
-      "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=4&rate=1",
+      "url": "http://41.191.227.118:8098/broadwave.mp3?src=2&rate=128",
       "image": "/img/kiss.jpg",
       "frequency": "100.3 fm",
       "twitter": "Kiss100kenya",
       "website": "https://kiss100.co.ke/"
     },
-    {
-      "name": "Classic 105",
-      "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=5&amp;rate=1",
-      "image": "/img/classic.jpg",
-      "frequency": "105.2 fm",
-      "twitter": "Classic105Kenya",
-      "website": "https://classic105.com/"
-    },
+   
     {
       "name": "Capital fm",
       "url": "https://icecast2.getstreamhosting.com:8050/stream.mp3",
@@ -42,7 +28,7 @@
     },
     {
       "name": "Ghetto radio",
-      "url": "http://45.79.138.31:8002/stream/1/",
+      "url": "http://45.79.138.31:8090/;?_=0.5050739066987733",
       "image": "/img/ghetto.jpg",
       "frequency": "89.5 fm",
       "twitter": "GhettoRadio895",
@@ -61,21 +47,40 @@
       "url": "http://ample-zeno-09.radiojar.com/wxn43ghqtceuv?rj-ttl=4&1533025647=&rj-token=AAABZ3624rXt0YGBX6XhSOn6mlxmveASt6wrPieWNe_K1rsol7CabQ",
       "image": "/img/kameme.png",
       "frequency": "101.5 fm",
-      "twitter": "kameme101"
+      "twitter": "kameme101",
+      "website": ""
+    },
+    {
+      "name": "Classic 105",
+      "url": "http://41.191.227.118:8098/broadwave.mp3?src=1&rate=128",
+      "image": "/img/classic.jpg",
+      "frequency": "105.2 fm",
+      "twitter": "Classic105Kenya",
+      "website": "https://classic105.com/"
+    },
+    {
+      "name": "Home boys radio",
+      "url": "http://91.121.165.88:8116/stream/1/",
+      "image": "/img/hbr.jpg",
+      "frequency": "103.5 fm",
+      "twitter": "HomeboyzRadio",
+      "website": "http://hbr.co.ke/"
     },
     {
       "name": "East fm",
       "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3?src=3&rate=1",
       "image": "/img/east.jpg",
       "frequency": "106.3 fm",
-      "twitter": "EastFMKenya"
+      "twitter": "EastFMKenya",
+      "website": ""
     },
     {
       "name": "Radio jambo",
       "url": "http://streams.radioafricagroup.co.ke:88/broadwave.mp3",
       "image": "/img/radiojambo.jpg",
       "frequency": "97.5 fm",
-      "twitter": "RadioJamboKenya"
+      "twitter": "RadioJamboKenya",
+      "website": ""
     },
 
     {
@@ -83,21 +88,24 @@
       "url": "http://ample-zeno-19.radiojar.com/ubktv3kqtceuv?rj-ttl=4&rj-token=AAABZ367YzoLgfN1c2vLA-P08tjisAtJ9hIMEqDZKwiyisN8Bt16nQ",
       "image": "/img/milele.jpg",
       "frequency": "93.6 fm",
-      "twitter": "Milele_FM"
+      "twitter": "Milele_FM",
+      "website": ""
     },
     {
       "name": "Hope fm",
       "url": "http://50.7.99.155:12087/stream/1/",
       "image": "/img/hope.jpg",
       "frequency": "93.3 fm",
-      "twitter": "hopeonair"
+      "twitter": "hopeonair",
+      "website": ""
     },
     {
       "name": "VOA",
       "url": "http://voa-17.akacast.akamaistream.net/7/315/322029/v1/ibb.akacast.akamaistream.net/voa-17",
       "image": "/img/voa.jpg",
       "frequency": "107.0 fm",
-      "twitter": "VOAAfrica"
+      "twitter": "VOAAfrica",
+      "website": ""
     },
     {
       "name": "Waumini radio",
@@ -111,14 +119,16 @@
       "url": "https://ice.audionow.com/2262RadioMaisha.mp3",
       "image": "/img/radiomaisha.jpg",
       "frequency": "102.7 fm",
-      "twitter": "radiomaisha"
+      "twitter": "radiomaisha",
+      "website": ""
     },
     {
       "name": "Inooro",
       "url": "blob:http://rmsradio.co.ke/812cfdfe-3b6e-4cd2-845b-a8e228c0e2ba",
       "image": "/img/inooro.webp",
       "frequency": "88.90 fm",
-      "twitter": "inooroke"
+      "twitter": "inooroke",
+      "website": ""
     }
   ]
 }
