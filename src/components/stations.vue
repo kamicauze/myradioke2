@@ -4,7 +4,11 @@
       <iframe :src="currentWeb"></iframe>
     </div>
     <div class="channels">
-      <stationcard v-for="station in stations" :station="station" :key="station.url"></stationcard>
+      <stationcard
+        v-for="station in stations"
+        :station="station"
+        :key="station.url"
+      ></stationcard>
     </div>
   </div>
 </template>
@@ -62,7 +66,6 @@ export default {
 </script>
 <style>
 .stations {
-  padding-left: 95px;
   box-sizing: border-box;
 
   height: 100vh;
@@ -118,11 +121,12 @@ export default {
 }
 .channels {
   height: 40%;
+  width: 100%;
   background-color: #1b1b20;
   padding: 10px;
   box-sizing: border-box;
   display: flex;
-  overflow-x: auto;
+  overflow-x: scroll;
 }
 .cards {
   height: 230px;
@@ -175,5 +179,4 @@ export default {
   background-color: #166c5b;
   outline: 1px solid slategrey;
 }
-
 </style>

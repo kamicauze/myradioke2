@@ -47,6 +47,7 @@ body {
 }
 .embed {
   grid-column: 2/-1;
+  grid-row: 1;
   max-height: 100vh;
 }
 .grad {
