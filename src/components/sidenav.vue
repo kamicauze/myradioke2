@@ -1,5 +1,7 @@
 <template>
-  <div class="sidenav"></div>
+  <div class="sidenav">
+   <a href="http://www.freebiebitcoin.com">Earn free bitcoin</a>
+  </div>
 </template>
 
 <script>

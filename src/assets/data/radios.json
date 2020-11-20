@@ -5,7 +5,7 @@
       "url": "http://net1.citrus3.com:8552/stream.mp3",
       "image": "/img/nrg.webp",
       "frequency": "97.1 fm",
-      "twitter": "NRGRadioKE",
+      "twitter": "NRGRadioKenya",
       "website": "https://nrg.radio/"
     },
 
@@ -28,7 +28,7 @@
     },
     {
       "name": "Ghetto radio",
-      "url": "http://45.79.138.31:8090/;?_=0.5050739066987733",
+      "url": "http://173.230.148.185:8090/stream/1/",
       "image": "/img/ghetto.jpg",
       "frequency": "89.5 fm",
       "twitter": "GhettoRadio895",
