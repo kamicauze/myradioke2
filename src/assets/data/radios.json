@@ -2,7 +2,7 @@
   "radios": [
     {
       "name": "Nrg radio",
-      "url": "http://net1.citrus3.com:8552/stream.mp3",
+      "url": "https://streamingv2.shoutcast.com/nrg-radio-ke",
       "image": "/img/nrg.webp",
       "frequency": "97.1 fm",
       "twitter": "NRGRadioKenya",
@@ -15,7 +15,7 @@
       "image": "/img/kiss.jpg",
       "frequency": "100.3 fm",
       "twitter": "Kiss100kenya",
-      "website": "https://kiss100.co.ke/"
+      "website": "https://kiss100.co.ke"
     },
    
     {
@@ -28,11 +28,11 @@
     },
     {
       "name": "Ghetto radio",
-      "url": "http://173.230.148.185:8090/stream/1/",
+      "url": "https://node-20.zeno.fm/eghcv7h647zuv.aac?rj-ttl=5&rj-tok=AAABf2pdTxgA7gm-Coj2RoLZAQ",
       "image": "/img/ghetto.jpg",
       "frequency": "89.5 fm",
       "twitter": "GhettoRadio895",
-      "website": "https://www.ghettoradio.co.ke/"
+      "website": "https://ghettoradio.co.ke/"
     },
     {
       "name": "X-fm",
