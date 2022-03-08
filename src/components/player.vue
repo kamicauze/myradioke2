@@ -27,7 +27,7 @@
       </div>
     </div>
     <div v-if="social" class="embed" v-bind:style="{ width:width}">
-      <Timeline :id="twit" :sourceType="'profile'" :options="{ theme: 'dark', height:'725' }">
+      <Timeline :id="twit" :sourceType="'profile'" :options="{ theme: 'dark', height:'100vh' }">
         <div class="spinner"></div>
       </Timeline>
     </div>
