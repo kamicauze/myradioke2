@@ -46,7 +46,7 @@ export default {
   },
   data() {
     return {
-      currentUrl:"http://net1.citrus3.com:8552/;stream.mp3",
+      currentUrl:"https://streamingv2.shoutcast.com/nrg-radio-ke",
       image: "/img/nrg.webp",
       play: true,
       name: "NRG Radio",
@@ -68,7 +68,7 @@ export default {
     });
   },
   mounted() {
-    this.currentUrl = "http://net1.citrus3.com:8552/;stream.mp3";
+    this.currentUrl = "https://streamingv2.shoutcast.com/nrg-radio-ke";
   },
   updated() {
     if (this.play == false) {
